@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;1,700 display=swap')
+*
+{
+    padding: 0; margin: 0;
+}
+
+.btnz button:hover{
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.btnz button:focus{
+    background-color:hsl(217, 12%, 63%);
+    color: white;
+}
+#submit:hover
+{   
+    cursor: pointer;
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+.img
+{   
+    padding: 10px;
+    border-radius: 50%;
+    background-color: hsl(210, 17%, 20%);
+}
+.container{
+    background-color: hsl(216, 12%, 8%);
+    height:100vh;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;}
+
+.card,.card_2
+{   
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+}
+.card div  {
+    margin:20px; }
+.card_2 div{
+    margin: 10px;
+}
+.card_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.title , .thank-you{
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+}
+.para , .thankyou-para{
+    color: hsl(216, 12%, 54%);
+    font-weight:400;
+    line-height: 20px;
+}
+.thankyou-para{
+    text-align: center;
+}
+.thankyou-rating{
+    background-color:hsl(210, 17%, 20%);
+    display:inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    font-size: small;
+
+}
+.btnz{
+    display: flex;
+    justify-content: center;
+}
+.btnz button{
+
+    background-color:hsl(210, 17%, 20%);
+    padding:10px 15px;
+    color:hsl(217, 12%, 63%);
+    border-radius: 50%;
+    font-size: 15px;
+    border: none;
+    margin: auto;}
+#submit{
+    padding:10px 120px ;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    border: none;
+    color: white;
+}    
+.hidden
+{
+    display: none;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
